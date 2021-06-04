@@ -1,0 +1,86 @@
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  grid-gap: 1rem;
+  margin-top: 1%;
+}
+
+.grid-item {
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  padding: 20px;
+  font-size: 16px;
+  text-align: center;
+  background-color: #e7e9eb;
+  border: 1px dashed black;
+  position: relative;
+  padding-bottom: 21%;
+  font-size: 12px;
+}
+
+.wrapper {
+  min-height: 93vh;
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+}
+
+.page-header {
+  text-align: center;
+  padding-bottom: 18px;
+  color: white;
+}
+
+.page-footer {
+  text-align: center;
+  padding-top: 18px;
+  color: white;
+}
+
+.new-note-textarea {
+  width: 100%;
+  height: auto;
+  resize: none;
+  background-color: #e7e9eb;
+}
+
+.bottom-icon {
+  bottom: 0px;
+  position: absolute;
+  cursor: pointer;
+  font-size: 15px;
+}
+
+.delete {
+  left: 12px;
+}
+
+.edit,
+.save {
+  right: 12px;
+}
+
+.hide {
+  display: none;
+}
+
+.note-content {
+  word-break: break-word;
+}
+
+.note-input {
+  border: none;
+  background-color: #e7e9eb;
+  height: 100%;
+  width: 100%;
+  resize: none;
+}
+
+.custom-textarea:focus-visible {
+  background-color: #fff4b9;
+  outline: none;
+}
+
+body {
+  margin: 2%;
+  background-color: #1d1d1d;
+  font-family: "IBM Plex Mono", monospace;
+}

@@ -1,0 +1,40 @@
+<meta charset="UTF-8">
+<head>
+  <link rel="preconnect" href="https://fonts.gstatic.com" />
+  <link
+    href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@500&display=swap"
+    rel="stylesheet"
+  />
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <div class="wrapper">
+    <header class="page-header">Blank Notes</header>
+    <main class="page-body">
+      <textarea
+        placeholder="Enter Note"
+        class="new-note-textarea custom-textarea"
+        id="input"
+        cols="30"
+        rows="10"
+      ></textarea>
+      <div class="grid-container" id="grid-container"></div>
+    </main>
+    <footer class="page-footer">Made for fun&#127849;</footer>
+  </div>
+
+  <template>
+    <div class="grid-item">
+      <div class="note-content">
+        Lorem Ipsum dolor djewfh wef foiewhfoehf oewhf ewhf hfiwh fef ef
+      </div>
+      <textarea class="note-input custom-textarea hide">
+      </textarea>
+      <a class="delete bottom-icon">🗑</a>
+      <a class="edit bottom-icon">🖊️</a>
+      <a class="save bottom-icon hide">💾</a>
+    </div>
+  </template>
+</body>
+<script src="index.js"></script>
